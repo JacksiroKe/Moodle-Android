@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?cardBgColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="8dp"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:id="@+id/clickWrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:layout_weight="1"
+        android:focusable="true"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/fileName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:text="Time table changes-2 second sem"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/downloadButton"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginEnd="15dp"
+            android:tint="?iconTintColor"
+            app:srcCompat="@drawable/download" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/more"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_marginEnd="15dp"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"
+        android:tint="?iconTintColor"
+        app:srcCompat="@drawable/dots_horizontal"
+        tools:visibility="gone" />
+
+</LinearLayout>

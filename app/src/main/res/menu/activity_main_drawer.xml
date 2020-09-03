@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/my_courses"
+            android:checked="true"
+            android:icon="@drawable/ic_book_multiple_variant"
+            android:title="@string/my_courses" />
+        <!-- <item
+             android:id="@+id/notifications"
+             android:icon="@drawable/ic_bell"
+             android:title="Notifications" />-->
+        <item
+            android:id="@+id/course_search"
+            android:icon="@drawable/ic_search"
+            android:title="@string/course_search_navigation_drawer" />
+
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/settings" />
+    </group>
+
+    <item android:title="@string/help">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_information"
+                android:title="@string/about" />
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_logout"
+        android:title="@string/logout" />
+
+
+</menu>

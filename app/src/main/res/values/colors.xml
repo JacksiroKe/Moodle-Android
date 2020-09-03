@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3452FF</color>
+    <color name="colorPrimaryDark">#2196F3</color>
+    <color name="colorAccent">#FF1053</color>
+
+
+    <color name="textOverPrimary">#ddffffff</color>
+    <color name="textOverWhite">#dd000000</color>
+
+    <color name="white">#ffffffff</color>
+    <color name="white_alpha26">#42ffffff</color>
+    <color name="white_alpha50">#80ffffff</color> <!-- default disabled text primary Dark -->
+
+    <color name="gray13">#ff212121</color>
+    <color name="gray26">#ff424242</color>
+    <color name="gray">#ffBEBEBE</color> <!-- default text secondary Dark -->
+    <color name="gray_alpha50">#80BEBEBE</color> <!-- default disabled text secondary Dark -->
+    <color name="gray74">#ffBDBDBD</color> <!-- list divider color Light -->
+
+    <color name="black">#ff000000</color>
+    <color name="black_alpha26">#42000000</color>
+
+    <color name="activityBackgroundLight">#FFFAFAFA</color>
+    <color name="activityBackgroundDark">@color/black</color>
+
+    <color name="cardBackgroundLight">@color/white</color>
+    <color name="cardBackgroundDark">@color/gray13</color>
+
+    <color name="navBarSelected">#42C0C0C0</color>
+    <color name="moduleUnread">#FFE0F7FA</color>
+
+    <!-- Tints for file icons -->
+    <color name="alizarin">#e74c3c</color>
+    <color name="nephritis">#27ae60</color>
+    <color name="belize_hole">#2980b9</color>
+    <color name="sunflower">#f1c40f</color>
+</resources>

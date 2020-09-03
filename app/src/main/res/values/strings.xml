@@ -1,0 +1,173 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">Moodle App</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Log in</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Forum posts -->
+    <string name="no_posts_to_display">No Forum posts to display</string>
+
+    <!-- resources for course search functionality -->
+    <string name="course_search_edit_text_hint">Enter Course Name</string>
+    <string name="course_search_button">Search</string>
+    <string name="course_search_navigation_drawer">Search Courses</string>
+
+    <!-- resources for course enrol functionality -->
+    <string name="course_enrol_category">Category</string>
+    <string name="course_enrol_teachers">Teachers</string>
+    <string name="course_enrol_self_enrol">Self enrolment (Student)</string>
+    <string name="course_enrol_teachers_no_info">No information available about teachers</string>
+    <string name="course_enrol_confirmation_msg">Are you sure you want to enrol yourself in this course?</string>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <plurals name="noOfCoursesUpdated">
+        <item quantity="one">%d Course updated</item>
+        <item quantity="other">%d Courses updated</item>
+    </plurals>
+
+    <string name="upToDate">Everything is up to date</string>
+
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, tale omnis ei mei, falli utinam graeco ne has. Rationibus constituto comprehensam ius te, mel in nusquam delicatissimi. Ne ius quidam oportere, dicat soleat option mel ei, usu cu minim consetetur. Mei id electram dissentias, et augue patrioque interpretaris vel.</string>
+    <string name="prompt_username">Username</string>
+    <string name="action_check_url_short">Connect</string>
+    <string name="url_hint">Site URL</string>
+    <string name="provide_username">Username mustn\'t be empty</string>
+    <string name="provide_password">Password mustn\'t be empty</string>
+    <string name="unknown_networkerror">An unknown network error occurred.</string>
+    <string name="invalid_token">Token is invalid</string>
+    <string name="token_without_access">This token does not allow access to the Moodle Mobile web service</string>
+    <string name="seemsnottobeamoodle">This page exists but there seems to be no Moodle endpoint on this address</string>
+    <string name="download_course">Download course</string>
+    <string name="download_course_information">Downloading course information…</string>
+    <string name="confirm_download">Confirm Download</string>
+    <string name="confirm_download_confirmation">Are you sure, you want to download the course?</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="already_downloading">Download already in progress</string>
+    <string name="download_finished">Downloaded</string>
+    <string name="cousesearch">Course Search</string>
+    <string name="settings">Settings</string>
+    <string name="confirm_logout">Are you sure you want to log out?</string>
+    <string name="my_courses">My Courses</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
+    <string name="filter_my_courses">Filter my courses</string>
+    <string name="no_courses_to_display">No Courses to display.</string>
+    <string name="notifications">Notifications</string>
+    <string name="dark_theme">Dark theme</string>
+    <string name="title_login">Log in to your account</string>
+    <string name="login_server_explanation">Please enter the address of the moodle instance you would like to connect to.</string>
+    <string name="login_error_no_url">No URL provided</string>
+    <string name="login_error_no_connection">Couldn\'t connect to this URL</string>
+    <string name="login_error_no_moodle">Not a moodle installation</string>
+    <string name="login_error_no_moodle_detail">The address you entered is accessible, but it does not appear to be a moodle installation. Please ensure you have entered the root page of a moodle instance.</string>
+    <string name="login_error_credentials">Logging in failed. Your credentials appear to be incorrect.</string>
+    <string name="login_web_explanation">This moodle installation requires you to use a web browser to authenticate.</string>
+    <string name="action_authenticate_in_browser_short">Open</string>
+    <string name="title_login_name">Log in to %s</string>
+    <string name="warning_insecure">Insecure connection</string>
+    <string name="login_web_force_native_explanation">Authentication in browser not working? Try logging in inside the app instead.</string>
+    <string name="action_force_native_login">Try it</string>
+    <string name="checking_site">Learning Never Stops</string>
+    <string name="login_progress_authenticating">Authenticating</string>
+    <string name="login_progress_fetch_detail">Fetching user details</string>
+    <string name="login_progress_fetch_course_list">Fetching course list</string>
+    <string name="login_progress_fetch_course_contents">Fetching course contents</string>
+    <string name="show_more">show more</string>
+    <string name="show_less">show less</string>
+    <string name="download">Download</string>
+    <string name="share">Share</string>
+    <string name="mark_as_unread">Mark as Unread</string>
+    <string name="properties">Properties</string>
+    <string name="view">View</string>
+    <string name="re_download">Re-Download</string>
+    <string name="downloading_file_">\"Downloading file - \"</string>
+    <string name="mark_all_as_read">mark all as read</string>
+    <string name="open_website_view">open website view</string>
+    <string name="no_course_data_to_display">No Course Data to display.\nTap to reload</string>
+    <string name="no_internet_connection">No internet connection.\nTap to retry</string>
+    <string name="unable_to_connect">Unable to connect to server!</string>
+    <string name="marked_all_as_read">Marked all as read</string>
+    <string name="unenrolled_from_course">you have un-enrolled from the course</string>
+    <string name="no_cached_data">No cached data. Check connection and refresh</string>
+    <string name="loading_cached_data">Loading cached data. Refresh for latest</string>
+    <string name="all_already_downloaded">All files already downloaded</string>
+    <string name="check_connection">Check your internet connection</string>
+    <string name="enter_query">Please enter a query to search</string>
+    <string name="about_header">moodleDirect is forked from the CMS-Android application developed by Crux, the Programming &amp; Computing Club of Bits Pilani Hyderabad Campus, and has been modified to support signing in with a user-specified moodle instance.\n\nThe following list displays all components that make up this application.</string>
+    <string name="submit_choice">Choose</string>
+    <string name="submit_choice_error_nothing_chosen">You cannot choose nothing.</string>
+    <string name="submit_choice_success">Choice submitted</string>
+    <string name="course_enrol_self_enrol_button">Enrol me</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+</resources>
